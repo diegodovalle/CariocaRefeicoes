@@ -1,0 +1,512 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Carioca Refeições RJ | Cardápio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Entrega de refeições, refeições rj, entrega de comida, entrega de queitinhas, comida rj" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!----requred-js-files---->
+<!----//requred-js-files---->
+<link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!----Calender -------->
+  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+  <script src="js/underscore-min.js"></script>
+  <script src= "js/moment-2.2.1.js"></script>
+  <script src="js/clndr.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/contact_form.js"></script>
+  
+<!----End Calender -------->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+</head>
+<body>
+<div class="header" id="home">
+	<div class="container"> 
+		<div class="logo">
+           <img src="images/logo.png" alt="" width="447px" height="489px"/> 
+		</div>
+	</div>
+</div>
+<div class="header-home">
+	<div class="container">
+	  <div class="fixed-header">
+	     <div class="h_menu4"><!-- start h_menu4 -->
+				<a class="toggleMenu" href="#">Menu</a>
+				<ul class="nav">
+					<li class="active"><a href="#home" class="scroll">Início</a></li>
+					<li><a href="#menu" class="scroll">Cardápio da Semana</a></li>
+					<li><a href="#executivo" class="scroll">Refeições Executivas</a></li>
+					<li><a href="#promo" class="scroll">Promoções</a></li>
+					<li><a href="#contact" class="scroll">Contato</a></li>
+				</ul>
+				<script type="text/javascript" src="js/nav.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>		
+				 <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+        </div><!-- end h_menu4 -->
+       </div>
+       </div>
+     </div>
+<div class="main">
+   <div class="container">
+   	<div class="announce" id="menu">
+	  <h1 class="tz-title-4 tzcolor-blue">
+         <span class="tzweight_Bold">Cardápio Diário</span>
+      </h1>
+      <div class="section_group"> 
+      	<div class="col_1_of_5 span_1_of_5">
+      		<div class="col_1"><img src="images/segunda.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Segunda-feira</a></h3>
+                <p><ul style="text-align:left">
+						<li>Contra-filé + Fritas + Ovos</li>
+						<li>Filé de Frango Frito</li>
+						<li>Filé de Peixe</li>
+						<li>Panqueca de Carne</li>
+						<li style="visibility:hidden"></li>
+						<li style="visibility:hidden"></li>
+				   </ul></p>
+				   
+      		</div>
+			<div class="col_Price">R$ 15,90</div>
+        </div>
+        <div class="col_1_of_5 span_1_of_5 last">
+      		<div class="col_1"><img src="images/terca.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Terça-feira</a></h3>
+                <p><ul style="text-align:left">
+						<li>Almôndegas c/ Macarrão ao Molho + Parmesão</li>
+						<li>Strogonoff de Frango</li>
+						<li>Carne Assada c/ Batatas Coradas + Champignon e Molho Madeira</li>
+						<li>Inhoque c/ Molho + Parmesão a Bolonhesa</li>
+				   </ul></p>
+      		</div>
+			<div class="col_Price">R$ 15,90</div>
+        </div>
+        <div class="col_1_of_5 span_1_of_5">
+      		<div class="col_1"><img src="images/quarta.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Quarta-feira</a></h3>
+                <p><ul style="text-align:left">
+						<li>Linguiça c/ Cebola + Batata Frita + Farofa</li>
+						<li>Costela c/ Agrião</li>
+						<li>Bife à Rolé c/ Purê</li>
+						<li>Carne de Porco ao Alho</li>
+						<li style="visibility:hidden"></li>
+						<li style="visibility:hidden"></li>
+				   </ul></p>
+      		</div>
+			<div class="col_Price">R$ 15,90</div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+	  <div class="section_group"> 
+      	<div class="col_1_of_5 span_1_of_5">
+      		<div class="col_1"><img src="images/quinta.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Quinta-feira</a></h3>
+                <p><ul style="text-align:left">
+						<li>Picadinho de Carne c/ Fritas + Farofa</li>
+						<li>Bife a Cavalo + Fritas + Ovo</li>
+						<li>Frango Assado Sobrecoxa + Fritas + Farofa</li>
+						<li>Frango Empanado + Fritas + Farofa de Alho</li>
+						<li style="visibility:hidden"></li>
+						<li style="visibility:hidden"></li>
+				   </ul></p>
+      		</div>
+			<div class="col_Price">R$ 15,90</div>
+        </div>
+        <div class="col_1_of_5 span_1_of_5 last">
+      		<div class="col_1"><img src="images/sexta.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Sexta-feira</a></h3>
+                <p><ul style="text-align:left">
+						<li>Bife à Parmegiana + Fritas + Salada</li>
+						<li>Feijoada - <b class="sales"> R$ 18,90 </b></li>
+						<li>Frango com Quiabo</li>
+						<li>Churrasco Misto (Linguiça + Frango + Carne + Molho Acompanha) - <b class="sales"> R$ 18,90 </b></li>
+						<li style="visibility:hidden"></li>
+				   </ul></p>
+      		</div>
+			<div class="col_Price">R$ 15,90</div>
+        </div>
+        <div class="col_1_of_5 span_1_of_5">
+      		<div class="col_1"><img src="images/sabado.jpg" class="img-responsive" alt=""/></div>
+      		<div class="desc">
+      			<h3><a href="#">Sábado</a></h3>
+                <p><ul style="text-align:left">
+						<li>Strogonoff de Carne + Batata Palha ou Batata Cubo</li>
+						<li>Mine Galeto + Batata Frita + Farofa</li>
+						<li>Carne Seca Acebolado c/ Aipim Frito ou Cozido</li>
+						<li>Dobradinha c/ Feijão Branco</li>
+				   </ul></p>
+      		</div>
+			<div class="col_Price">R$ 17,90</div>
+        </div>
+		<center><p style="color:#fff;opacity: 0.5"><b>Importante:</b> Todos os pratos diários possuem o acompanhamento de Arroz, Feijão e Salada / O <b>Contra-filé</b> e <b>Filé de Frango</b> estão disponíveis todos os dias.</p></center>
+        <div class="clearfix"> </div>
+      </div>
+      </div>
+      <div class="menu" id="executivo">
+      <h2 class="tz-title-4">
+         <span class="tzweight_Bold">Executivas</span>
+      </h2>
+      <div class="grid_1">
+      	<div class="box_1">
+      	   <div class="col-md-3 menu_left">
+		   <h4 style="color:#C0392B">Opcionais</h4>
+				   <div class="menu_vertical">
+		         	 	<section class="accordation_menu">
+						  <div>
+						    <input id="label-1" name="lida" type="radio" checked/>
+						   <label for="label-1" id="item1"><i class="ferme"> </i>Sobremesas<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+						    <div class="content" id="a1">
+						    	<div class="scrollbar" id="style-2">
+                                  <div class="force-overflow">
+	  	                           <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s1.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5 style="font-size:12px">Torta de Limão</h5>
+					  			   	 	<p style="margin-top:-8px">A favorita torta de limão. R$ 6,90</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+					  			   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s2.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5 style="font-size:12px">Gelado de Abaxaci</h3>
+					  			   	 	<p style="margin-top:-8px">Delicioso sobremesa caseira. R$ 6,90</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+					  			   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s3.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc" style="margin-bottom:10px">
+					  			   	 	<h5 style="font-size:12px">Pudim</h5>
+					  			   	 	<p style="margin-top:-8px">Nosso tradicional pudim. R$ 6,90</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+									
+					  			   </ul>
+                                  </div>
+                                </div>
+                              </div>
+						  </div>
+						  <div>
+						    <input id="label-2" name="lida" type="radio"/>
+						    <label for="label-2" id="item2"><i class="icon-leaf" id="i2"></i>Bebidas<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+						    <div class="content" id="a2">
+						       <div class="scrollbar" id="style-2">
+                                  <div class="force-overflow">
+	  	                           <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s4.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Coca-Cola</h5>
+					  			   	 	<p style="margin-top:-8px">Normal ou Zero. R$ 4,50</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s4.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Coca-Cola 1,5L</h5>
+					  			   	 	<p style="margin-top:-8px">Normal ou Zero. R$ 7,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s4.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Coca-Cola 3L</h5>
+					  			   	 	<p style="margin-top:-8px">Normal ou Zero. R$ 9,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+					  			   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s5.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Guaraná Lata</h5>
+					  			   	 	<p style="margin-top:-8px">Normal ou Zero. R$ 4,50</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+					  			   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s6.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Del Valle</h5>
+					  			   	 	<p style="margin-top:-8px">R$ 5,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+					  			    <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s7.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Ice Tea</h5>
+					  			   	 	<p style="margin-top:-8px">R$ 4,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s8.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Matte Leão</h5>
+					  			   	 	<p style="margin-top:-8px">R$ 4,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s9.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>H2O</h5>
+					  			   	 	<p style="margin-top:-8px">R$ 5,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s10.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Guaraviton</h5>
+					  			   	 	<p style="margin-top:-8px">R$ 4,80</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s11.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Fanta</h5>
+					  			   	 	<p style="margin-top:-8px">Sabor Uva ou Laranja. R$ 4,50</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s12.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc">
+					  			   	 	<h5>Aguá Tônica</h5>
+										<p style="margin-top:-8px">R$ 5,00</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+								   <ul class="news_list">
+					  			     <li class="date">
+										<img src="images/s13.jpg" class="img-responsive" alt=""/>
+									 </li>
+									 <li class="date_desc"  style="margin-bottom:80px">
+					  			   	 	<h5>Guaravita</h5>
+										<p style="margin-top:-8px">R$ 2,50</p>
+					  			   	 </li>
+					  			   	 <div class="clearfix"> </div>
+					  			   </ul>
+                                  </div>
+                                </div>
+						    </div>
+						  </div>
+						  <div>
+						    
+						</section>
+					 </div>
+				</div>
+				<div class="col-md-9 menu_right">
+					<h4>Refeições Executivas</h4>
+					<div class="grid_2">
+					<div class="col_1_of_3 span_1_of_3">
+						<img src="images/pic6.jpg" class="img-responsive" alt=""/>
+						<div class="menu_list">
+					      <h3>Todos os Dias</h3>
+					      <p>Opções Disponíveis</p>
+					      <ul class="list1">
+					      	<li><a href="#">1. Salmão - Arroz c/ Brócolis + Salada Rúcula + Alface e Tomate Cereja - (Feijão)</a></li><br />
+					      	<li><a href="#">2. Picanha - Ao Molho c/ Batata Portuguesa + Salada de Rúcula, Alface e Tomate Cereja (Arrox e Feijão)</a></li>
+					      </ul>
+				        </div>
+					</div>
+					<div class="col_1_of_3 span_1_of_3">
+						<img src="images/pic7.jpg" class="img-responsive" alt=""/>
+						<div class="menu_list">
+					      <ul class="list1">
+						    <li><a href="#">3. Filé Mignon c/ Champignon + Palmito ao Alho + Salada (Arroz e Feijão)</a></li><br />
+					      	<li><a href="#">4. Frango Grelhado c/ Salada Especial (Rúcula, Alface, Tomate Cereja, Mussarela de Búfalo e Ovo de Cordona (Arroz e Feijão)</a></li><br />
+					      	<li><a href="#">5. Bacalhau - Suflê c/ Salada</a></li>
+					      </ul>
+				        </div>
+					</div>
+					<div class="col_1_of_3 span_1_of_3">
+						<img src="images/pic8.jpg" class="img-responsive" alt=""/>
+						<div class="menu_list">
+					      <h3>Opções Lights:</h3>
+					      
+					      <ul class="list1">
+					      	<li><a href="#">1. Frango Grelhado</a></li>
+					      	<li><a href="#">2. Arroz Integral</a></li>
+					      	<li><a href="#">3. Salada de Legumes</a></li>
+					      	<li><a href="#">4. Salada Verde</a></li>
+					      	<li><a href="#">5. Macarrão Integral</a></li>
+					      	<li><a href="#">6. Patinho Moído</a></li>
+					      	<li><a href="#">7. Filé de Peixe c/ Molho de Camarão</a></li>
+					      	<li><a href="#">8. Purê de Batata Doce</a></li>
+							<li><a href="#">9. Inhoque de Batata Doce</a></li>
+							<li><a href="#">10. Bife Grelhado</a></li>
+					      </ul>
+				        </div>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			 </div>
+			 
+			 <h2 class="tz-title-3">
+               <span class="tzweight_Bold">Promoções</span>
+             </h2>
+			 <div class="box_2" id="promo">
+			 	 <div class="col_1_of_3 span_1_of_3">
+			 	 	<div class="row_1">
+			 	 		<h3>Compre</h3> 
+			 	 		<h4>5</h4>
+			 	 		<h3>Refeições</h3> 
+			 	 		<div class="border"> </div>
+			 	 		<h5>Ganhe 1 Cocacola 3 L</h5>	
+			 	 	</div>
+			 	 </div>
+			 	 <div class="col_1_of_3 span_1_of_3">
+			 	 	<div class="row_1">
+			 	 		<h3>Monte até</h3> 
+			 	 		<h4>9</h4>
+			 	 		<h3>Hs</h3> 
+			 	 		<div class="border"> </div>
+			 	 		<h5>Vale p/ refeições light</h5>	
+			 	 	</div>
+			 	 </div>
+				 <div class="col_1_of_3 span_1_of_3">
+			 	 	<div class="row_1">
+			 	 		<h3>Aceitamos</h3> 
+			 	 		 <h4></h4>
+			 	 		<h3><img src="images/pagamentos.png" /></h3> 
+			 	 		<div class="border"> </div>
+			 	 		<h5>Débito e Crédito</h5>	
+			 	 	</div>
+			 	 </div>
+			 	 <div class="clearfix"> </div>
+			 </div><br />
+			 <center><p style="color:#C0392B;">Encomendas com Nota Fiscal para Empresas / Obras / Escritórios / Comércio.</p></center>
+         </div>
+      </div>
+      
+	     
+      <div class="contact" id="mainform">
+      	 <h3 class="tz-title-4">
+          <span class="tzweight_Bold">Contato</span>
+        </h3>
+        <div class="contact_box">
+        	<div class="col-md-12 contact_form">
+        		<form id="form">
+					
+					<p id="returnmessage"></p>
+					<div class="column_2">
+					
+					<input type="text" id="name" placeholder="Nome e Sobrenome" class="text"/>
+					
+					<input type="text" id="email" placeholder="Endereço de Email" class="text" style="margin-left:2.7%"/>
+					
+					<input type="text" id="contact" placeholder="Telefone Fixo ou Celular" class="text"/>
+					</div>
+					<div class="column_3">
+					
+					<textarea id="message" placeholder="Digite sua mensagem......."></textarea>
+					</div>
+					<div class="form-submit1">
+					<label class="btn btn-primary btn-normal btn-inline" target="_self"><input type="submit" id="submit" value="Enviar Mensagem"/></label>
+					</div>
+					<div class="clearfix"> </div>
+				</form>
+				
+        	</div>
+        	
+        	<div class="clearfix"> </div>
+        </div>
+      </div>
+	 
+      <div class="copy">
+          <p>© 2015 Carioca Refeições. Todos os Direitos Reservados | Website Criado por  <a href="http://www.dvgsolucoes.online" target="_blank">Agência DVG Soluções</a> </p>
+	  </div>
+	  <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a class="scroll" href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>     
+</body>
+</html>
